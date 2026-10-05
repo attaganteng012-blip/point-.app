@@ -1,0 +1,6 @@
+{
+  "name": "POINT+ | Layanan Top Up Game Resmi & Cepat",
+  "description": "POINT+ adalah platform resmi top up game Mobile Legends, Free Fire, PUBG Mobile, Valorant, Honor of Kings, Genshin Impact, dan Roblox dengan proses instan dan verifikasi QRIS aman.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

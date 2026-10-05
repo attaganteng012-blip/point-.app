@@ -1,0 +1,17 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Proxy API calls directly to your Vercel backend URL (optional fallback if VITE_API_URL is empty)
+# Ganti URL di bawah dengan domain Vercel backend Anda setelah deploy, contoh: https://point-plus-backend.vercel.app/api/:splat
+# [[redirects]]
+#   from = "/api/*"
+#   to = "https://your-backend.vercel.app/api/:splat"
+#   status = 200
+#   force = true
+
+# SPA fallback redirect for React Router
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
